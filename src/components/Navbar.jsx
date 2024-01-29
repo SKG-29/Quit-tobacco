@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container,Box , Stack } from '@chakra-ui/react'
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div>
@@ -10,19 +11,19 @@ const Navbar = () => {
         </Box>
         <Stack mt='-2rem' mb='0.75rem'  spacing={3} direction='row' align="center" justify="center">
         <Box ml='8rem' pl='1.5rem' pr='1rem'>
-          Home
+          <Link to= "/">Home</Link>
         </Box>
         <Box pl='1.5rem' pr='1rem'>
-          Tips
+          <Link to= "/tips">Tips</Link>
         </Box>
         <Box pl='1.5rem' pr='1rem'>
-          Community
+          <Link to= "/community">Community</Link>
         </Box>
         <Box pl='1.5rem' pr='1rem'>
-          Blog
+          <Link to= "/aboutus">Aboutus</Link>
         </Box>
         <Box pb='2px' pt='2px' pl='2rem' pr='2rem' bg='#DBDFEA' borderRadius='20px' as='b' color='#040D12'>
-          Login
+          <Link to= "/login">Login</Link>
         </Box>
         
         

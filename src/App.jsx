@@ -9,7 +9,7 @@ import { Container,Box  } from '@chakra-ui/react'
 const App = () => {
   return (
     <div>
-      <Container minWidth='1600px' minHeight='1600px' bg='#040D12' color='white'>
+      <Container minWidth='1600px' minHeight='1200px' bg='#040D12' color='white'>
       
       <div className="Higher-div ">
         <div className= "navbar-short-div">
