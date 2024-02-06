@@ -4,7 +4,7 @@ import { Container,Box  } from '@chakra-ui/react'
 const Tipspage = () => {
   return (
     <div>
-      <Container minWidth='1600px' minHeight='1200px' bg='#040D12' color='white'>
+      <Container w='100%' h='100%' minWidth='full' minHeight='full'  align='start'  bg='#040D12' color='white'>
       <Navbar/>
       Tipspage
       </Container>

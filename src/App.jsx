@@ -6,10 +6,11 @@ import Caraousal from './components/Caraousal';
 import Testimonial from './components/Testimonial';
 import Footer from './components/Footer';
 import { Container,Box  } from '@chakra-ui/react'
+
 const App = () => {
   return (
     <div>
-      <Container minWidth='1600px' minHeight='1200px' bg='#040D12' color='white'>
+      <Container w='100%' h='100%' minWidth='full' minHeight='full'  align='start'  bg='#040D12' color='white'>
       
       <div className="Higher-div ">
         <div className= "navbar-short-div">
@@ -23,22 +24,14 @@ const App = () => {
           <Caraousal/>
         </div>
       </div>
-      <div className= "Button-short-div">
-        <div className= "Short-div">
-          {/* <Button/> */}
-        </div>
-      </div>
+      
       
       <div className= "Testimonial-short-div">
         <div className= "Short-div">
           <Testimonial/>
         </div>
       </div>
-      <div className= "Carousal-next-short-div">
-        <div className= "Short-div">
-          {/* <Caraousal/> */}
-        </div>
-      </div>
+      
       <div className= "Footer-short-div">
         <div className= "Short-div">
           <Footer/>

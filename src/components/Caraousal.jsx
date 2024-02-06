@@ -7,28 +7,31 @@ import { ArrowRightIcon } from '@chakra-ui/icons'
 const Caraousal = () => {
   return (
     <div>
-      <Container ml='2rem' mr='2rem' minWidth='1250px' minHeight='500px'   borderRadius='15px' bg='#DBDFEA' color='#040D12' >
-        <Stack direction='row'>
-        <Box mt='3rem' mb='3rem' ml='4rem' mr='20rem'>
-          <Box>
-            <Text fontSize='6xl' as='b' mr='6rem' lineHeight='120%'>
+      <Container alignself='center'   maxWidth='full' maxHeight='full' w='90%'  h='400px'  borderRadius='15px' bg='#DBDFEA' color='#040D12' >
+        <Stack ml='2rem' direction='column'>
+
+        
+        <Stack   direction='row'>
+         <Box  >
+          <Box mt='2rem' mr='13rem' >
+            <Text  fontSize='6xl' as='b' mr='0rem' mb='0rem' lineHeight='110%'>
               Sometimes it is a Good Thing to Quit!
             </Text>
           </Box>
           <Box>
-            <Text mt='2rem' fontSize='2xl' mr='4rem'>
+            <Text mt='1rem' fontSize='1xl' mb='2rem' mr='13rem'>
               Quit smoking today with the help of QuitIT
             </Text>
           </Box>
         </Box>
         <Box mt='5rem' mb='3rem' mr='15rem'>
         <Image  src='' alt='Dan Abramov' />
-        </Box>
+        </Box> 
         </Stack>
         
-  <Stack direction='row'>
-  <Button   ml='4rem' mr='20rem' borderRadius='20px' bg='#040D12' color='#DBDFEA' variant='solid'>
-    <Text ml='1rem' mr='1rem' mt='0.5rem' mb='0.5rem'>
+   <Stack direction='row' pb='2rem'>
+  <Button    mr='20rem' borderRadius='20px' bg='#040D12' colorScheme='#DBDFEA' variant='solid'>
+    <Text ml='1rem' mr='1rem' mt='0.5rem' mb='0.5rem' _hover= 'b'>
     Take a Survey
     </Text>
     
@@ -36,6 +39,7 @@ const Caraousal = () => {
   <Box  mt='0.5rem' ml='-20.1rem' mr='15rem'>
     <ArrowRightIcon/>
   </Box>
+    </Stack> 
     </Stack>      
   
         
